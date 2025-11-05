@@ -1,4 +1,4 @@
-# inventario de microservicios (equipo)
++# inventario de microservicios (equipo)
 
 > Mantener en actualizacion. Toda fila sin responsable o sin URL válida se considera **incompleta**.
 
@@ -44,10 +44,10 @@
 
 | Rol | Nombre | Usuario GitHub | Observaciones |
 |---|---|---|---|
-| Scrum Master | Nombre Apellido | @usuario | — |
-| DevOps | Nombre Apellido | @usuario | EC2, puertos, dominios |
-| QA | Nombre Apellido | @usuario | Revisión básica de respuestas |
-| Autor(es) de servicio(s) | Nombre Apellido | @usuario | Indicar cuál servicio |
+| Scrum Master | Yulieth Trujillo | @usuario | — |
+| DevOps | Sara Malaver | @usuario | EC2, puertos, dominios |
+| QA | Alejandro Barco | @usuario | Revisión básica de respuestas |
+| Autor(es) de servicio(s) | Jaime Jurado | @usuario | Indicar cuál servicio |
 
 ---
 
