@@ -1,4 +1,3 @@
-```
 # inventario de microservicios (equipo)
 
 > Mantener en actualizacion. Toda fila sin responsable o sin URL válida se considera **incompleta**.
@@ -58,4 +57,4 @@
   - …  
 - Bloqueos/riesgos:  
   - …
-```
+
