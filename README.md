@@ -10,6 +10,6 @@
 ## Listado de microservicios
 - [curso-service]()
 - [OVA-service]()
-- [RabbitMQ]()
+- [RabbitMQ](https://github.com/yuliethtrujillo01/RabbitMQ.git)
 
 ## Repositorio del front-end
