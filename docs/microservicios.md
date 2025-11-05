@@ -8,7 +8,7 @@
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  | Autenticación JWT (login/refresh)       | https://github.com/<org>/<repo-auth>   | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Nombre Apellido (@github) | En progreso |
 | ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/<org>/<repo-ova>    | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Nombre Apellido (@github) | En progreso |
-| RabbitMQ-service  | Gestión de assets (pdf/img/video-url)   | https://github.com/<org>/<repo-asset>  | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Nombre Apellido (@github) | Pendiente   |
+| RabbitMQ-service  | Gestión de assets (pdf/img/video-url)   | https://github.com/<org>/<repo-asset>  | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | Pendiente   |
 
 > **Ejemplo de llenado real:**  
 > - “Base URL (EC2)”: usar IP pública o dominio del servidor.  
@@ -44,7 +44,7 @@
 
 | Rol | Nombre | Usuario GitHub | Observaciones |
 |---|---|---|---|
-| Scrum Master | Yulieth Trujillo | @usuario | — |
+| Scrum Master | Yulieth Trujillo | yuliethtrujillo01 | entrenador o guía del equipo |
 | DevOps | Sara Malaver | @usuario | EC2, puertos, dominios |
 | QA | Alejandro Barco | @usuario | Revisión básica de respuestas |
 | Autor(es) de servicio(s) | Jaime Jurado | @usuario | Indicar cuál servicio |
