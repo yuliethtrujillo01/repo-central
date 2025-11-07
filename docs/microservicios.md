@@ -6,8 +6,8 @@
 
 | Servicio (ID)  | Descripción breve                       | Repo URL                               | Base URL (EC2)             | Swagger UI                            | Responsable               | Estado      |
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
-| curso-service  | Autenticación JWT (login/refresh)       | https://github.com/<org>/<repo-auth>   | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Nombre Apellido (@github) | En progreso |
-| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/<org>/<repo-ova>    | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Nombre Apellido (@github) | En progreso |
+| curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE  | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
+| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/<org>/<repo-ova>    | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (@github) | En progreso |
 | RabbitMQ-service  | Comunicacion entre microservicios   | https://github.com/yuliethtrujillo01/RabbitMQ.git  | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 
 > **Ejemplo de llenado real:**  
@@ -18,9 +18,29 @@
 
 ## detalle por servicio (plantilla)
 
-### <servicio>-service
-- **Responsable:** Nombre Apellido (@github)  
-- **Repositorio:** https://github.com/<org>/<repo-del-servicio>  
+### <curso-service>-service
+- **Responsable:** Alejandro Barco (alejandrobarco01-coder) 
+- **Repositorio:** https://github.com/alejandrobarco01-coder/CURSO-SERVICE  
+- **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
+- **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
+- **Entidades principales:**  
+  - `<EntidadPrincipal>` (campos clave: …)  
+- **Endpoints mínimos:**  
+  - `POST /api/<recurso>`  
+  - `GET /api/<recurso>`  
+  - `GET /api/<recurso>/{id}`  
+  - `PUT /api/<recurso>/{id}`  
+  - `DELETE /api/<recurso>/{id}`  
+- **Checklist de verificación (semanal):**  
+  - [ ] Compila y arranca local  
+  - [ ] `/actuator/health` **UP** en local  
+  - [ ] Swagger accesible en EC2  
+  - [ ] Push diario con commits significativos  
+  - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+
+  ### <ova-service>-service
+- **Responsable:** Jaime Jurado (jaimejurado) 
+- **Repositorio:** 
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
 - **Entidades principales:**  
@@ -45,8 +65,8 @@
 | Rol | Nombre | Usuario GitHub | Observaciones |
 |---|---|---|---|
 | Scrum Master | Yulieth Trujillo | yuliethtrujillo01 | entrenador o guía del equipo |
-| DevOps | Sara Malaver | @usuario | EC2, puertos, dominios |
-| QA | Alejandro Barco | @usuario | Revisión básica de respuestas |
+| DevOps | Sara Malaver | saramalaver01-cpu | EC2, puertos, dominios |
+| QA | Alejandro Barco | alejandrobarco01-coder | Revisión básica de respuestas |
 | Autor(es) de servicio(s) | Jaime Jurado | @usuario | Indicar cuál servicio |
 
 ---
