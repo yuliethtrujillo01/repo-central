@@ -8,7 +8,7 @@
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE  | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
 | ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/esteban429/ova-service:v1.0.0   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban429) | En progreso |
-| RabbitMQ-service  | Comunicacion entre microservicios   | https://github.com/yuliethtrujillo01/RabbitMQ.git  | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
+| RabbitMQ-service  | Comunicacion entre microservicios   | https://github.com/yuliethtrujillo01/eureka-servicio.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 
 > **Ejemplo de llenado real:**  
 > - “Base URL (EC2)”: usar IP pública o dominio del servidor.  
