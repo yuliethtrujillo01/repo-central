@@ -18,7 +18,7 @@
 
 ## detalle por servicio (plantilla)
 
-### <curso-service>-service
+### (curso-service)-service
 - **Responsable:** Alejandro Barco (alejandrobarco01-coder) 
 - **Repositorio:** https://github.com/alejandrobarco01-coder/CURSO-SERVICE  
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
@@ -38,7 +38,7 @@
   - [ ] Push diario con commits significativos  
   - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 
-  ### <ova-service>-service
+  ### (ova-service)-service
 - **Responsable:** Jaime Jurado (jaimejurado) 
 - **Repositorio:** 
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
