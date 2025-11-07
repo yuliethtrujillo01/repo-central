@@ -40,7 +40,7 @@
 
   ### (ova-service)-service
 - **Responsable:** Jaime Jurado (esteban429) 
-- **Repositorio:** 
+- **Repositorio:** https://github.com/esteban429/ova-service:v1.0.0
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
 - **Entidades principales:**  
