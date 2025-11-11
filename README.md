@@ -14,4 +14,4 @@
 - [Eureka-service](https://github.com/yuliethtrujillo01/eureka-servicio.git)
 
 ## Repositorio del front-end
-- [Front-service]()
+- [Front-end]()
