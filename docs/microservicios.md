@@ -7,7 +7,7 @@
 | Servicio (ID)  | Descripción breve                       | Repo URL                               | Base URL (EC2)             | Swagger UI                            | Responsable               | Estado      |
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE  | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
-| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/esteban429/ova-service:v1.0.0   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban429) | En progreso |
+| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/esteban429/ova-service:v1.0.0   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban-42) | En progreso |
 | Eureka-service  | Comunicacion entre microservicios   | https://github.com/yuliethtrujillo01/eureka-servicio.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 | Estudiante-service  |  CRUD estudiante/módulos/lecciones  | https://github.com/yuliethtrujillo01/estudiante-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 
@@ -90,7 +90,7 @@
 | Scrum Master | Yulieth Trujillo | yuliethtrujillo01 | entrenador o guía del equipo |
 | DevOps | Sara Malaver | saramalaver01-cpu | EC2, puertos, dominios |
 | QA | Alejandro Barco | alejandrobarco01-coder | Revisión básica de respuestas |
-| Autor(es) de servicio(s) | Jaime Jurado | esteban429 | Indicar cuál servicio |
+| Autor(es) de servicio(s) | Jaime Jurado | esteban-42 | Indicar cuál servicio |
 
 ---
 
