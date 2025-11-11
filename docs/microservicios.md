@@ -7,7 +7,7 @@
 | Servicio (ID)  | Descripción breve                       | Repo URL                               | Base URL (EC2)             | Swagger UI                            | Responsable               | Estado      |
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE  | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
-| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/esteban429/ova-service:v1.0.0   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban-42) | En progreso |
+| ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/Esteban-42/ova-service:v1.0.0   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban-42) | En progreso |
 | Eureka-service  | Comunicacion entre microservicios   | https://github.com/yuliethtrujillo01/eureka-servicio.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 | Estudiante-service  |  CRUD estudiante/módulos/lecciones  | https://github.com/yuliethtrujillo01/estudiante-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 
@@ -62,7 +62,7 @@
 
 
   ### (ova-service)-service
-- **Responsable:** Jaime Jurado (esteban429) 
+- **Responsable:** Jaime Jurado (Esteban-42) 
 - **Repositorio:** https://github.com/esteban429/ova-service:v1.0.0
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
