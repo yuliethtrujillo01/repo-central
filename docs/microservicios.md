@@ -8,7 +8,8 @@
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
 | ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/Esteban-42/ova-service   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban-42) | En progreso |
-| Estudiante-service  |  CRUD estudiante/módulos/lecciones  | https://github.com/yuliethtrujillo01/estudiante-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
+| Auth-service  |  -  | https://github.com/yuliethtrujillo01/estudiante-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
+| Front-end |  - | - | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Sara Malaver (yuliethtrujillo01) | En progreso   |
 
 
 > **Ejemplo de llenado real:**  
@@ -39,7 +40,7 @@
   - [ ] Push diario con commits significativos  
   - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 
-### (Estudiante-service)-service
+### (Auth-service)-service
 - **Responsable:** Yulieth Trujillo (yuliethtrujillo01) 
 - **Repositorio:** https://github.com/yuliethtrujillo01/estudiante-service.git
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
