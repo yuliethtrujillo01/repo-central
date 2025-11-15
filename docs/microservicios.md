@@ -8,7 +8,7 @@
 | -------------- | --------------------------------------- | -------------------------------------- | -------------------------- | ------------------------------------- | ------------------------- | ----------- |
 | curso-service  |  CRUD curso/módulos/lecciones        | https://github.com/alejandrobarco01-coder/CURSO-SERVICE | http://<ip-o-dominio>:8081 | http://<ip-o-dominio>:8081/swagger-ui | Alejandro Barco (alejandrobarco01-coder) | En progreso |
 | ova-service    | CRUD OVA/módulos/lecciones              | https://github.com/Esteban-42/ova-service   | http://<ip-o-dominio>:8082 | http://<ip-o-dominio>:8082/swagger-ui | Jaime Jurado (esteban-42) | En progreso |
-| Auth-service  |  Autenticacion JWT (login/refresh) | https://github.com/yuliethtrujillo01/estudiante-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
+| Auth-service  |  Autenticacion JWT (login/refresh) | https://github.com/yuliethtrujillo01/auth-service.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Yulieth Trujillo (yuliethtrujillo01) | En progreso   |
 | Front-end |  interfaz gráfica y experiencia de uso | https://github.com/saramalaver01-cpu/front-end.git | http://<ip-o-dominio>:8083 | http://<ip-o-dominio>:8083/swagger-ui | Sara Malaver (saramalaver01-cpu) | En progreso   |
 
 
@@ -42,7 +42,7 @@
 
 ### (Auth-service)-service
 - **Responsable:** Yulieth Trujillo (yuliethtrujillo01) 
-- **Repositorio:** https://github.com/yuliethtrujillo01/estudiante-service.git
+- **Repositorio:** https://github.com/yuliethtrujillo01/auth-service.git
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
 - **Entidades principales:**  
