@@ -20,6 +20,26 @@
 
 ## detalle por servicio (plantilla)
 
+  ### (ova-service)-service
+- **Responsable:** Jaime Jurado (Esteban-42) 
+- **Repositorio:** https://github.com/Esteban-42/ova-service
+- **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
+- **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
+- **Entidades principales:**  
+  - `<EntidadPrincipal>` (campos clave: …)  
+- **Endpoints mínimos:**  
+  - `POST /api/<recurso>`  
+  - `GET /api/<recurso>`  
+  - `GET /api/<recurso>/{id}`  
+  - `PUT /api/<recurso>/{id}`  
+  - `DELETE /api/<recurso>/{id}`  
+- **Checklist de verificación (semanal):**  
+  - [ ] Compila y arranca local  
+  - [ ] `/actuator/health` **UP** en local  
+  - [ ] Swagger accesible en EC2  
+  - [ ] Push diario con commits significativos  
+  - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+
 ### (curso-service)-service
 - **Responsable:** Alejandro Barco (alejandrobarco01-coder) 
 - **Repositorio:** https://github.com/alejandrobarco01-coder/CURSO-SERVICE 
@@ -40,19 +60,13 @@
   - [ ] Push diario con commits significativos  
   - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 
-### (Auth-service)-service
-- **Responsable:** Yulieth Trujillo (yuliethtrujillo01) 
-- **Repositorio:** https://github.com/yuliethtrujillo01/auth-service.git
+  ### -Front-end
+- **Responsable:** Sara Malaver (saramalaver01-cpu) 
+- **Repositorio:** https://github.com/saramalaver01-cpu/front-end.git
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
 - **Entidades principales:**  
   - `<EntidadPrincipal>` (campos clave: …)  
-- **Endpoints mínimos:**  
-  - `POST /api/<recurso>`  
-  - `GET /api/<recurso>`  
-  - `GET /api/<recurso>/{id}`  
-  - `PUT /api/<recurso>/{id}`  
-  - `DELETE /api/<recurso>/{id}`  
 - **Checklist de verificación (semanal):**  
   - [ ] Compila y arranca local  
   - [ ] `/actuator/health` **UP** en local  
@@ -61,19 +75,13 @@
   - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 
 
-  ### (ova-service)-service
-- **Responsable:** Jaime Jurado (Esteban-42) 
-- **Repositorio:** https://github.com/Esteban-42/ova-service
+### (Auth-service)-service
+- **Responsable:** Yulieth Trujillo (yuliethtrujillo01) 
+- **Repositorio:** https://github.com/yuliethtrujillo01/auth-service.git
 - **Base URL (EC2):** http://<ip-o-dominio>:<puerto>  
 - **Swagger UI:** http://<ip-o-dominio>:<puerto>/swagger-ui  
 - **Entidades principales:**  
   - `<EntidadPrincipal>` (campos clave: …)  
-- **Endpoints mínimos:**  
-  - `POST /api/<recurso>`  
-  - `GET /api/<recurso>`  
-  - `GET /api/<recurso>/{id}`  
-  - `PUT /api/<recurso>/{id}`  
-  - `DELETE /api/<recurso>/{id}`  
 - **Checklist de verificación (semanal):**  
   - [ ] Compila y arranca local  
   - [ ] `/actuator/health` **UP** en local  
