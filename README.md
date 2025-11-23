@@ -8,7 +8,7 @@
 - Yulieth Trujillo Rivera
   
 ## Listado de microservicios
-- [Auth-service](https://github.com/yuliethtrujillo01/auth-service.git)
+- [Auth-service](https://github.com/yuliethtrujillo01/oauth2-springboot.git)
 - [Curso-service](https://github.com/alejandrobarco01-coder/CURSO-SERVICE)
 - [OVA-service](https://github.com/esteban-42/ova-service)
 
