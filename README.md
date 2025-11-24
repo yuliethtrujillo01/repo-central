@@ -13,4 +13,4 @@
 - [OVA-service](https://github.com/esteban-42/ova-service)
 
 ## Repositorio del front-end
-- [Front-end](https://github.com/saramalaver01-cpu/front-end.git)
+- [Front-end](https://github.com/yuliethtrujillo01/front-end.git)
